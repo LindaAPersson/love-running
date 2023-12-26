@@ -177,7 +177,7 @@ main {
     color: #3a3a3a;
 }
 
-/*Media quary, tablets and lager*/
+/*Media quary, tablet*/
 @media screen and (min-width: 768px) {
     nav {
         display: block;
@@ -208,13 +208,59 @@ main {
         /*To push down the site from header*/
         margin-top: 79px;
     }
+
+    /* hero */
     #cover-text {
         width: 300px;
         right: 50px;
+    }
+
+    /* Reasons section*/
+    #benefits-mental, #benefits-physicsl {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #benefits-mental > div, #benefits-physicsl > div {
+        width: 75%;
+    }
+    #benefits-mental > div {
+        text-align: end;
+        align-self: flex-end;
     }
 }
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
+}
+@media screen and (min-width: 1200px) {
+    #benefits {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #benefits > div {
+        flex: 1;
+    }
+
+    #befefits-image {
+
+        order: 0;
+    }
+
+    #benefits-mental {
+
+        order: 1;
+    }
+
+    #benefits-mental > div {
+
+        align-self: flex-start;
+    }
+
+    #benefits-physicsl > div {
+        align-self: flex-start;
+    }
+
 }
