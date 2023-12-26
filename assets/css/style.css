@@ -86,6 +86,8 @@ main {
     background-color: lightblue;
     /* make main element to take upp space*/
     flex: 1 0 auto;
+    margin-top: 47px;
+    
 }
 
 /*footer*/
