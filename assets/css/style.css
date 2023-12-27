@@ -342,12 +342,14 @@ main {
     }
     /* Sign up page*/
     #signup {
-        background-position: ;
+        background-position: center;
+        position: relative;
 
     }
     #signup-form {
         background-position: absolute;
-        margin: 150px 10%;
+        top: 150px;
+        left: 10%;
         max-width: 400px;
     }
     .join-button:hover {
