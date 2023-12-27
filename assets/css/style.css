@@ -221,7 +221,7 @@ main {
     padding: 20px 10% 0 10%;
 }
 
-signup-form > h2 {
+#signup-form>h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }
@@ -242,7 +242,7 @@ signup-form > h2 {
     margin: 5px 0 20px 0;
 }
 
-#radio_buttons {
+.radio_buttons {
     display: flex;
     justify-content: space-between;
     width: 100%;
