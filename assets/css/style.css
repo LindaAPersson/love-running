@@ -209,9 +209,10 @@ main {
 /* Sign up site*/
 
 #signup {
-    background: url(assets/images/signup-image.webp) no-repeat cover;
+    background: url(../images/signup-image.webp) no-repeat cover;
     background-position: 75%;
     flex-grow: 1;
+    margin: 20px 10%;
 }
 
 form > h2 {
@@ -222,6 +223,12 @@ form > h2 {
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
     margin: 30px;
+}
+
+.text-input {
+    transparent, color: #fafafa;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
 }
 
 /*footer*/
