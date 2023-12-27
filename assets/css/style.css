@@ -248,7 +248,7 @@ main {
     width: 100%;
 }
 
-#join-button {
+.join-button {
     border-radius: 2px;
     background-color: #454b1b;
     color: #fafafa;
@@ -339,6 +339,23 @@ main {
     /* Gallery */
     #photos {
         column-count: 3;
+    }
+    /* Sign up page*/
+    #signup {
+        background-position: ;
+
+    }
+    #signup-form {
+        background-position: absolute;
+        margin: 150px 10%;
+        max-width: 400px;
+    }
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
+    }
+    #text-input:hover {
+        border-color: #f16c6b;
     }
 }
 /*Laptops*/
