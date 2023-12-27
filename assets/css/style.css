@@ -195,6 +195,17 @@ main {
 
 }
 
+/* Gallery site */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+
+}
+
+#photos {
+    line-height: 0;
+}
+
 /*footer*/
 #social-networks {
     text-align: center;
@@ -208,6 +219,13 @@ main {
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+/*Media quary, lager or landscape phones (576px and up)*/
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+    }
 }
 
 /*Media quary, tablet*/
